@@ -1,13 +1,14 @@
 package com.antbean.configuration;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
+@ConfigurationProperties(prefix = "com.antbean")
 public class NeoProperties {
-	@Value("${com.antbean.title}")
+	// @Value("${com.antbean.title}")
 	private String title;
-	@Value("${com.antbean.description}")
+	// @Value("${com.antbean.description}")
 	private String description;
 
 	public String getTitle() {
