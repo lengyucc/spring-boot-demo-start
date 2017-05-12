@@ -1,1 +1,1 @@
-教程地址:http://www.cnblogs.com/ityouknow/p/5662753.html
+教程地址:http://www.ityouknow.com/blog
