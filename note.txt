@@ -1,14 +1,14 @@
-#server
+#服务相关配置
 server.port=9090
 #server.context-path=/helloboot
 
-#log
+#日志相关配置
 logging.file=E:/mylog/log.log
 logging.level.org.springframework.web=DEBUG
 
-#env
+#环境相关配置(会自动选择所使用的配置文件,如值为dev,则使用application-dev.properties作为配置文件)
 #spring.profiles.active=dev
 
-#other
+#自定义配置
 com.antbean.title=my title
 com.antbean.description=my desc...
