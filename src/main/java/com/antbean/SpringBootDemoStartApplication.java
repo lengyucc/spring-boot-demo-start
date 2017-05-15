@@ -9,7 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-import org.apache.catalina.filters.RemoteIpFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
@@ -22,10 +21,10 @@ public class SpringBootDemoStartApplication {
 		SpringApplication.run(SpringBootDemoStartApplication.class, args);
 	}
 
-	@Bean
-	public RemoteIpFilter remoteIpFilter() {
-		return new RemoteIpFilter();
-	}
+//	@Bean
+//	public RemoteIpFilter remoteIpFilter() {
+//		return new RemoteIpFilter();
+//	}
 
 	@Bean
 	public FilterRegistrationBean testFilterRegistration() {
